@@ -719,6 +719,159 @@ main {
 } 
 @media (max-width:576px) {
     .bunnerContent  {
-        padding-top: 200px;
+        padding-top: 130px;
+    }
+    .formContentRight {
+        width: 100%;
+    }
+    .formContentRight form {
+        padding: 16px;
+    }
+    .formContentRight form p{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .formContentRight form input {
+        box-sizing: border-box;
+        height: 60px;
+        border-radius: 15px;
+    }
+    .formContentRight form input:nth-last-of-type(1) {
+        padding: 16px;
+        font-size: 16px;
+        line-height: 20px;
+        height: 60px;
+        border-radius: 15px;
+    }
+    .bunnerSection {
+        max-height: 75px !important;
+    }
+    .formContentLeft a img {
+        max-width: 70%;
+    }
+    .formChecked label {
+        width: 100%;
+    }
+    .formChecked label {
+        font-size: 20px;
+    }
+    .formPrice {
+        font-size: 20px;
+    }
+    .infoTopSection p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .infoTopSection {
+        height: 100px;
+    }
+    .infoMain h2 {
+        font-size: 55px;
+        line-height: 60px;
+    }
+    .infoMain > p:nth-of-type(1) {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .infoMain > p:nth-of-type(2) {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .formContentRight form input {
+        padding-left: 16px;
+    }
+    .formContentLeft a {
+        display: flex;
+        justify-content: center;
+    }
+    .form .wrapper h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .promoRight ul li span {
+        font-size: 20px;
+        line-height: 25px; 
+    }
+    .promoRight ul li {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .promoRight h2 {
+        font-size: 35px;
+        line-height: 40px; 
+    }
+    .promoRight ul:before {
+        height: 77%;
+        left: -26px;
+    }
+    .promoLeftTittle {
+        width: 100%;
+    }
+    .promoLeftTittle h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .promoLeftTittle h2 span {
+        font-size: 38px;
+        line-height: 45px;
+        margin-left: -1px;
+    }
+    .promoLeftTittle p {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .promoLeft h3 {
+        font-size: 17px;
+        line-height: 20px;
+        margin-left: -5px;
+    }
+    .promoLeftTittle {
+       justify-content: center;
+    }
+    .promoLeft {
+        align-items: center;
+    }
+    .bunnerSection {
+        max-height: 100px;
+    }
+    .bunnerSection p {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .bunnerSection h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .bunnerSection {
+        display: flex;
+        justify-content: space-between;
+    }
+    .bunnerSection p span {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .bunnerContentRight {
+        margin-top: -50px;
+    }
+    .footerLeft {
+        margin-right: 0;
+    }
+    .footerLeftIcons {
+        width: 100%;
+    }
+    .footerSection {
+        align-items: center !important;
+    }
+    .footerSection p {
+        text-align: center !important;
+    }
+    .footerSection span {
+        text-align: center !important;
+    }
+    .header {
+        top: 30px;
+    }
+    .promoRight ul li::before {
+        top: 10px;
     }
 }
