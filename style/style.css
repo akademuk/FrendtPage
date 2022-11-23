@@ -875,3 +875,101 @@ main {
         top: 10px;
     }
 }
+@media (max-width: 320px) {
+    .bunnerSection h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .bunnerSection p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .bunnerContentRight {
+        margin-top: -25px;
+    }
+    .promoRight ul:before {
+        height: 80%;
+    }
+    .infoMain > p:nth-of-type(1) {
+        font-size: 30px;
+        line-height: 35px; 
+        margin-bottom: 30px;
+    }
+    .infoMain h2 {
+        font-size: 40px;
+        line-height: 45px; 
+        margin-bottom: 30px;  
+    }
+    .infoMain > p:nth-of-type(2) {
+        font-size: 30px;
+        line-height: 35px; 
+        margin-bottom: 30px;
+    }
+    .formChecked {
+        margin-top: 0;
+    }
+    .checked-radio {
+        width: 35px;
+        height: 35px;
+        border-radius: 5px;
+        bottom: -20px;
+    }
+    .checked-radio::before, .checked-radio::after {
+        width: 30px;
+        height: 30px;
+        top: 60%;
+        background-size: contain;
+    }
+    .formChecked label {
+        padding: 16px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .formPrice {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .formContentRight form p {
+        font-size: 25px;
+        line-height: 30px; 
+    }
+    .form .wrapper h2 {
+        font-size: 30px;
+        line-height: 35px; 
+        margin-bottom: 30px;
+    }
+    .footerLeft a {
+        display: flex;
+        justify-content: center;
+    }
+    .footerLeft a img {
+        max-width: 80%;
+    }
+    .footerLeftIcons a svg {
+        width: 40px;
+        height: 40px;
+    }
+    .footerLeftIcons {
+        width: 75%;
+    }
+    .footerSection h3 {
+        font-size: 30px;
+        line-height: 35px; 
+        margin-bottom: 15px;
+    }
+    .footerSection p{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .footerSection a{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .footerSection span{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .footer {
+        padding-bottom: 50px;
+    }
+}
