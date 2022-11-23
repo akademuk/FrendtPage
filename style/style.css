@@ -45,7 +45,17 @@ main {
     width: 100%;
 }
 .bunnerSection {
+    border: 3px solid #00953B;
+    border-radius: 25px;
+    width: 381px;
+    height: 100%;
+    max-height: 114px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 48px;
+    box-sizing: border-box;
 }
 .wrapper {
     max-width: 1250px;
@@ -61,6 +71,9 @@ main {
     width: 37%;
     padding-left: 55px;
     padding-bottom: 100px;
+}
+.bunnerSection:nth-of-type(1) {
+    padding-left: 35px;
 }
 .bunnerContentRight {
     display: flex;
@@ -79,20 +92,13 @@ main {
     font-size: 23px;
     line-height: 28px;
 }
-.bunnerSection {
-    border: 3px solid #00953B;
-    border-radius: 25px;
-    width: 381px;
-    height: 100%;
-    max-height: 114px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    margin-bottom: 48px;
-}
 .bunnerSection:nth-last-of-type(1){
     margin-bottom: 0;
+    padding-left: 18px;
+    padding-right: 8px;
+}
+.bunnerSection:nth-last-of-type(1) h3{
+    width: min-content;
 }
 .bunnerSection h3 {
     font-weight: 400;
@@ -346,6 +352,7 @@ main {
     box-sizing: border-box;
     padding-right: 23px;
     padding-bottom: 28px;
+    cursor: pointer;
 }
 .form .wrapper {
     display: flex;
@@ -422,6 +429,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 64px 0 145px 0;
+    margin-top: -1px;
 }
 .footer .wrapper {
     display: flex;
@@ -474,4 +482,243 @@ main {
 }
 .footerSection span:nth-of-type(1) {
     margin-bottom: 40px;
+}
+.footerContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+.footerSection {
+    width: 45%;
+}
+.footerSection:nth-of-type(2) {
+    width: 55%;
+}
+.footerLeft {
+    margin-right: 100px;
+}
+@media (max-width:1300px) {
+    .wrapper {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .bunnerContent .wrapper {
+        max-width: 95%;
+    }
+    .bunnerSection:nth-of-type(2) {
+        margin-left: 15px;
+    }
+    .bunnerSection:nth-of-type(3) {
+        margin-left: 30px;
+    }
+    .bunnerSection:nth-of-type(4) {
+        margin-left: 45px;
+    }
+    .bunnerContentLeft {
+        padding-left: 0;
+    }
+    .bunnerSection {
+        margin-bottom: 28px;
+    }
+    .bunnerContentRight img {
+        max-width: 85%;
+    }
+    .bunnerContentRight {
+        justify-content: center;
+    }
+    .header a img {
+        max-width: 85%;
+    }
+    .bunnerContent  {
+        padding-top: 300px;
+    }
+    .infoTopSection {
+        width: 350px;
+    }
+    .promoRight ul:before {
+        height: 78%;
+    }
+}
+@media (max-width: 1200px) {
+    .bunnerContent .wrapper {
+        flex-direction: column;
+    }
+    .bunnerContentLeft {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .bunnerSection {
+        width: 45%;
+        margin-left: 0 !important;
+        max-height: 130px;
+    }
+    .promo .wrapper {
+        flex-direction: column;
+    }
+    .promoLeft {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .promoRight {
+        width: 60%;
+        margin-left: auto;
+    }
+    .infoTop {
+        flex-wrap: wrap;
+    }
+    .infoTopSection {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    .infoTopSection:nth-last-of-type(1) {
+        margin: 0 auto;
+    }
+    .formChecked label {
+        width: 45%;
+        font-size: 30px;
+    }
+    .checked-radio {
+        left: -25px;
+    }
+    .formContent {
+        position: relative;
+        justify-content: center;
+        padding-top: 100px;
+    }
+    .formContentLeft {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 0;
+        max-width: 75%;
+    }
+    .formContentRight {
+        position: relative;
+        z-index: 1;
+    }
+    .formContentRight form {
+        max-width: 70%;
+    }
+    .formContentLeft:hover {
+        z-index: 2 !important;
+    }
+    .footer .wrapper {
+        flex-direction: column;
+    }
+    .footerLeft {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footerLeftIcons {
+        width: 40%;
+    }
+    .footerSection:nth-of-type(1) {
+        margin-bottom: 30px;
+    }
+    .footerLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width: 992px) {
+    .bunnerSection h3 {
+        font-size: 27px;
+        line-height: 30px;
+    }
+    .bunnerSection p {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .promoRight {
+        width: 85%;
+    }
+    .promoRight ul:before {
+        height: 83%;
+    }
+}
+@media(max-width: 768px) {
+    .bunnerSection {
+        width: 100%;
+    }
+    .bunnerSection h3{
+        width: auto !important;
+    }
+    .promoLeftTittle h2 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .promoLeftTittle h2 span {
+        font-weight: 700;
+        font-size: 79px;
+        line-height: 80px;
+        margin-top: -13px;
+        margin-left: -2px;
+    }
+    .promoLeftTittle p {
+        font-size: 39px;
+        line-height: 38px;
+    }
+    .promoLeft h3 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .infoTopSection {
+        width: 100%;
+        justify-content: center;
+    }
+    .infoTopSection:nth-of-type(3) p {
+        width: 60%;
+    }
+    .formChecked {
+        flex-direction: column;
+    }
+    .formChecked label {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .formChecked label:nth-of-type(2) .checked-radio{
+        left: -40px;
+    }
+    .formContent {
+        padding-top: 0;
+    }
+    .formContentRight form {
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+    .formContentLeft {
+        position: static;
+        max-width: 100%;
+    }
+    .formContent {
+        flex-direction: column-reverse;
+    }
+    .form .wrapper h2 {
+        font-size: 50px;
+        line-height: 55px;
+        margin: 50px auto;
+    }
+    .footerLeftIcons {
+        width: 60%;
+    }
+    .footerContainer {
+        flex-direction: column;
+    }
+    .footerSection {
+        width: 100% !important;
+    }
+    .footerSection h3 {
+        margin-bottom: 10px;
+    }
+} 
+@media (max-width:576px) {
+    .bunnerContent  {
+        padding-top: 200px;
+    }
 }
